@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #5D6063;
+    background-color: #EAEDF0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    margin: 40px 0;
+    padding: 50px;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.tribute-info {
+    text-align: left;
+    background-color: #F6F7F8;
+    margin: 40px 0;
+    padding: 50px;
+}
+
+.tribute-content {
+    text-align: left;
+    background-color: #F6F7F8;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.tribute-content blockquote {
+    text-align: center;
+    background-color: #F6F7F8;
+    margin: 10px 0;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.tribute-list {
+    text-align: left;
+    background-color: #F6F7F8;
+    margin: 10px 30px;
+    padding: 10px;
+}
+
+#survey-form {
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+    #main {
+        width: 600px;
+    }
+}
